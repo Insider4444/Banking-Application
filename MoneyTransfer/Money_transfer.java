@@ -12,7 +12,8 @@ public class Money_transfer {
     public static int transfer_module(){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter Bank Name: ");
-        bank_name = sc.next();
+        sc.next();
+        bank_name = sc.nextLine();
         System.out.print("Enter Beneficiary Account No: ");
         beneficiary_account_no = sc.nextLong();
         System.out.print("Enter IFSC Code: ");

@@ -24,7 +24,7 @@ public class Bill_payment {
         cvv = sc.nextInt();
         System.out.print("Enter Expiry Date : ");
         expiry_date = sc.next();
-        System.out.println("\nCongratulations !\nYour Bill Payment is Successfully");
+        System.out.println("\nCongratulations !\nYour Bill Payment is Successfull");
         System.out.print("\n\nEnter '7' for Main-Menu (or) '6' to Exit Application : ");
         return sc.nextInt();
     }
