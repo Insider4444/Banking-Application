@@ -86,7 +86,7 @@ public class BankMenu {
             }
             else if (choice == 6) {
                 System.out.println("\n\n||==============> Thank You For Banking with us :) <===============||\n\n");
-                break;
+                System.exit(0);
             }
             else {
                 clear();

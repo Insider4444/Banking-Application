@@ -11,13 +11,20 @@ public class Money_transfer {
 
     public static int transfer_module(){
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter account no: ");
+        sc.next();
+        acc_no = sc.nextLong();
         System.out.print("Enter Bank Name: ");
-        bank_name = sc.next();
+        sc.next();
+        bank_name = sc.nextLine();
         System.out.print("Enter Beneficiary Account No: ");
+        sc.next();
         beneficiary_account_no = sc.nextLong();
         System.out.print("Enter IFSC Code: ");
-        IFSC_code = sc.next();
+        sc.next();
+        IFSC_code = sc.nextLine();
         System.out.print("Enter Amount: ");
+        sc.next();
         amount = sc.nextLong();
         System.out.println("\nCongratulations !\nYour Money is Transferred Successfully");
         System.out.print("\n\nEnter '7' for Main-Menu (or) '6' to Exit Application : ");
