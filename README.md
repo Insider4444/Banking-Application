@@ -1,4 +1,5 @@
 # Simple Java Banking Application (Command-Line-Tool)
+![image](https://github.com/user-attachments/assets/e8f50f15-1e5a-4bdd-a122-b6ec3918f2bc)
 
 ## Overview
 MyBank is a simple text-based banking application that provides various features for managing your banking needs. It is built in Java and offers the following services:
